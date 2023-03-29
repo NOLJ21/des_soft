@@ -1,0 +1,25 @@
+.login-card {
+    margin-top: 100px;
+    animation: slide-in 1s ease-in-out;
+  }
+  
+  .google-button {
+    color: #4285f4;
+    border-color: #4285f4;
+  }
+  
+  .google-button:hover {
+    background-color: #4285f4;
+    color: white;
+  }
+  
+  @keyframes slide-in {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
